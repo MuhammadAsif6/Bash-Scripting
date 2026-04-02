@@ -1,0 +1,9 @@
+#!/bin/bash
+
+DIR="/path/to/directory"
+
+if [ -d "$DIR" ]; then
+	echo "Yes it exists"
+else
+	echo "The directory does not exist"
+fi
